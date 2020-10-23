@@ -1,0 +1,10 @@
+com\rabbit\service\BuyGoodsService.class
+com\rabbit\dao\GoodsDao.class
+com\rabbit\App.class
+com\rabbit\contoller\BuyGoodsServlet.class
+com\rabbit\aspect\test.class
+com\rabbit\dao\SailDao.class
+com\rabbit\domain\Sail.class
+com\rabbit\service\impl\BuyGoodsServiceImpl.class
+com\rabbit\aspect\myaspect.class
+com\rabbit\domain\Goods.class

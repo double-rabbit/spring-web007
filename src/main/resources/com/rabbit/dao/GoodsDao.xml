@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rabbit.dao.GoodsDao">
+   <update id="updateGoodsById">
+       update goods set amount = amount-#{reduceAmount} where id = #{gid}
+   </update>
+    <select id="findAmountById" resultType="com.rabbit.domain.Goods">
+        select * from goods where id = #{gid};
+    </select>
+</mapper>
